@@ -56,12 +56,12 @@
     <div id="main" class="container">
       <h1>Fruitie Store</h1>
       <hr />
-
-      <div
+       
+    <div
         id="carouselExampleIndicators"
         class="carousel slide carousel-fade"
         data-bs-ride="carousel"
-      >
+      ></div>
         <div class="carousel-indicators">
           <button
             type="button"
@@ -152,8 +152,30 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <br /><br />
-      <!-- Sample of iframe embedding Youtube Video-->
+      <br/>
+      <br/> 
+      <article>    
+      <p class="fruit_prep" class="ptags">
+        Fruit is an important part of our diet. It contains lots of vitamins
+        and minerals. Nature has blessed us with a variety in different
+        colours that depict the richness of each type. The different vitamins
+        in our fruits include vitamins A, B, C, E, K etc. Minerals fruits
+        include calcium, iron, manganese, potassium, magnesium etc.</p>
+      
+      <p class="fruit_prep" class="ptags">
+        A popular saying that 'an apple a day, keeps the doctor away' is
+        justified by the benefits of eating fruit as part of our diet. Among
+        the benefits is building strong bones and teeth and blood pressure
+        regulation. Other benefits include proper heart functioning, nerve
+        transmissions and muscle contration, eyes and skin health, protection
+        against infections, healing of cuts and wounds, healthy teeth gums and
+        so on.</p>
+      </article>
+      <br/>
+      <br/>
+      <div class="row">
+        <div class="col">
+          <!-- Sample of iframe embedding Youtube Video-->
       <h2 id="fruit_prep">Fruit Preparation: Meet Your 5-A-Day Demand!</h2>
       <iframe
         width="480"
@@ -166,63 +188,52 @@
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
       ></iframe>
-      <br /><br />
-
-      <article>
-        <p class="fruit_prep" class="ptags">
-          Fruit is an important part of our diet. It contains lots of vitamins
-          and minerals. Nature has blessed us with a variety in different
-          colours that depict the richness of each type. The different vitamins
-          in our fruits include vitamins A, B, C, E, K etc. Minerals fruits
-          include calcium, iron, manganese, potassium, magnesium etc.
-        </p>
-        <br />
-        <p class="fruit_prep" class="ptags">
-          A popular saying that 'an apple a day, keeps the doctor away' is
-          justified by the benefits of eating fruit as part of our diet. Among
-          the benefits is building strong bones and teeth and blood pressure
-          regulation. Other benefits include proper heart functioning, nerve
-          transmissions and muscle contration, eyes and skin health, protection
-          against infections, healing of cuts and wounds, healthy teeth gums and
-          so on.
-        </p>
-      </article>
-
+      <p>Visit our store to enjoy your 5-A-day.</p>
+        </div>
+        <div class="col">
       <h2>Fruit Preparation Video 2:</h2>
       <video width="480" height="275" controls>
         <source src="videos/fruits.mp4" type="video/mp4" />
         <source src="videos/fruits.ogg" type="video/ogg" />
         <source src="video/fruits.wmv" type="video/wmv" />
-        Your browser does not support the video.</video
-      ><br /><br />
+      Your browser does not support the video.</video>
+        
+        <br/>
+          <audio controls>
+            <source src="music/song.mp3" type="audio/mpeg" />
+    
+          Your browser does not support the video.
+          </audio>
+        </div>
+      </div>
+      <br/>
 
-      <audio controls>
-        <source src="music/song.mp3" type="audio/mpeg" />
+      <div class="text-center">
+        <button id="jquerybtn" class="btn btn-danger btn-lg">
+          Hide P Tags - Jquery
+        </button>
+        <button class="btn btn-outline-danger btn-lg" onclick="hidePTags()">
+          Hide P Tags - JavaScript
+        </button>
+      </div>
+    </div> 
 
-        Your browser does not support the video.
-      </audio>
-      <br />
-      <br />
-      <br />
-      <!--The two lines below are is for JavaScript-->
-      <!-- <button>Hide P Tags - Jquery</button>
-      <button onclick="hidePTags()">Hide P Tags - JavaScript</button>
-    </div> -->
-      <!--below is for jquery-->
-      <button id="jquerybtn" class="btn btn-danger btn-lg">
-        Hide P Tags - Jquery
-      </button>
-      <button class="btn btn-outline-danger btn-lg" onclick="hidePTags()">
-        Hide P Tags - JavaScript
-      </button>
-    </div>
-    <br />
-    <div id="footer">
-      <a href="https://www.amazon.com">Amazon</a>
-      <a href="https://www.ebay.com" target="_blank">eBay</a>
-      <p id="copy">&#169; Flo Webdesign 2024</p>
-    </div>
-
+    <footer class="py-s mt-4 bg-secondary" data-bs-theme="dark">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link px-2 text-body-secondary">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Contact Us</a>
+        </li>
+      </ul>
+      <p class="text-center text-body-secondary" target="_blank">&#169; Flo Webdesign 2024</p>
+    </footer>
+         
+    
     <script src="scripts/jquery.min.js"></script>
     <script src="stylesheets/bootstrap.min.js"></script>
     <script src="scripts/site.js"></script>

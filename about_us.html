@@ -72,44 +72,194 @@
 
     <article>
       <h2>Daily Tasks</h2>
-      <ul>
-        <li>Check the online orders</li>
-        <li>Check the stock</li>
-        <li>Sort out incoming Stock</li>
-        <li>Check payment made by customers</li>
-        <li>Match payment with orders</li>
-        <li>Package orders for delivery</li>
-        <li>Arrange for delivery company to collect orders</li>
-        <li>Reorder Stock</li>
-        <li>Record daily sales</li>
-      </ul>      
+      <!--The use of cards and grid-->
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Step 1</h5>
+              <p class="card-text">The first thing to do when you arrive is to check if there are new orders online to set the ball rolling.</p>
+              <a href="contact_us.html" class="btn btn-primary">Check the online orders</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Step 2</h5>
+              <p class="card-text">The next thing to do is to check if there are enough stock before you start working on the order.</p>
+              <a href="contact_us.html" class="btn btn-primary">Check the stock</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Step 3</h5>
+              <p class="card-text">This is the time to check the newly arrive stock and ensure they are recorded on the system.</p>
+              <a href="contact_us.html" class="btn btn-primary">Sort out incoming Stock</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Step 4</h5>
+              <p class="card-text">At this stage, you will need to verify customers' payment record before processing the order.</p>
+              <a href="contact_us.html" class="btn btn-primary">Check payment made by customers</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Step 5</h5>
+              <p class="card-text">Package the orders and ensure that you do a quality check  for the items and delivery address.</p>
+              <a href="contact_us.html" class="btn btn-primary">Package orders for delivery</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Step 6</h5>
+              <p class="card-text">Process the delivery documents online for delivery company.</p>
+              <a href="contact_us.html" class="btn btn-primary">Make arrangement for all order collection by delivery company</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Step 7</h5>
+              <p class="card-text">This is the time to record all the sales made in shop, online and document correctly.</p>
+              <a href="contact_us.html" class="btn btn-primary">Record the sales for the day</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Step 8</h5>
+              <p class="card-text">Is there enough stock to last the next two days? if not, place an order.</p>
+              <a href="contact_us.html" class="btn btn-primary">order new stock if necessary</a>
+            </div>
+          </div>
+        </div>        
+          </div>
+        </div>
+
+      </div>     
 
     </article>
     
     <article>
-      <h2>How you can work with us.</h2>
-      <ol>
-        <li>Call our recruitment centre</li>
-        <li>Complete our Form</li>
-        <li>Send your resume</li>
-        <li>Attend Interview</li>
-        <li>Complete Food Hygiene Training</li>
-        <li>
-        <a href="contact_us.html">Contact Central Office</a>
-        </li>
-      </ol>       
+      <h3>How you can work with us</h2>
+      <!--Accordion is used to style the ordered list below-->
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Call Our Recruitment Centre
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Contact Our Office</strong><br/>Our office is opened between 9am and 5pm except for weekends and bank holidays. 
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Complete Our Form
+            </button>
+          </h3>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Locate Our Contact Form</strong><br/>You only need to complete the form and our HR will be in touch within 72hours.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h3 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Send Your Resume
+            </button>
+          </h3>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>You can send us your resume</strong><br/>Our HR will review your resume and get back to you within two weeks.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h3 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Attend Interview
+          </button>
+        </h3>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Our Two-stage Interview Process</strong><br/>Our HR will contact you upon reviewing your resume. If you are successful in the first stage, you will be invited to our for the second stage.  
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h3 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+          Complete Food Hygiene Training
+        </button>
+      </h3>
+      <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>Food Hygiene Certification</strong><br/>You will be expected to complete the food hygiene course for certification if your interview is successful.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h3 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+        Contact Central Office
+      </button>
+    </h3>
+    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Visit Us</strong><br/>You can contact our central office by arranging an appointment with the HR.
+        <a href="contact_us.html" class="btn btn-outline-secondary">Contact Central Office</a>
+    </div>
+  </div>
+</div>   
+                  
     </article>
     
     </main> 
     
-    <footer>
-      <br/><br/>
-      <a href="https://www.amazon.com">Amazon</a>
-      <a href="https://www.ebay.com" target="_blank">eBay</a>
-      <p id="copy">&#169; Flo Webdesign 2024</p>
+    <footer class="py-s mt-4 bg-secondary" data-bs-theme="dark">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link px-2 text-body-secondary">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2 text-body-secondary">Contact Us</a>
+        </li>
+      </ul>
+      <p class="text-center text-body-secondary" target="_blank">&#169; Flo Webdesign 2024</p>
     </footer>
-
-    <!--<script src="<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>-->
+         
+    
     <script src="scripts/jquery.min.js"></script>
     <script src="stylesheets/bootstrap.min.js"></script>
     <script src="scripts/site.js"></script>

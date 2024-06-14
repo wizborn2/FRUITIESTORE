@@ -2,9 +2,9 @@ h1{
     color: red;
 }
 
-h2{
+h2, h3{
     color: rgb(91, 91, 239);
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -25,7 +25,7 @@ li{
     text-align: center;
     
 }
-
+/* 
 #nav, nav{
     background-color:cadetblue;
     color:aqua;
@@ -40,26 +40,24 @@ li{
     background-color: rgb(58, 189, 150);
 }
 
-
-
 #nav a, nav a{
     color:aliceblue;
     text-decoration: none;
     font-size: large;
     margin-right: 80px;
     padding: 10px;
-}
-#footer, footer, footer, footer{
+} */
+/* #footer, footer, footer, footer{
     background-color: rgb(140, 196, 212);
     min-height: 30px;
     text-align: center;
 }
-#footer a, footer a{
+#footer a, footer a, footer a, footer a{
     color: blue;
-    text-decoration: overline;
-    margin-right: 80px;
-    text-decoration-style: ;
-}
+    text-decoration: underline;
+    margin-right: 10px;
+} */
+    
 
 /* #main, main{
     width: 80%;
@@ -74,11 +72,11 @@ article{
     text-align:left;
 }
 
-#copy, .office_address, .FAQs, .fruit_prep{   
+#copy, .office_address, .FAQs{   
     text-align: left ;
 }
 
-#copy, #copy, #copy{   
+#copy, #copy, #copy, #copy{   
     text-align: left ;
 }
 
@@ -89,6 +87,9 @@ article{
 
 .faqs, #faqs{
     text-align: left;
-
 }
+
+/* .carousel-item{
+    text-align: left;
+} */
 
