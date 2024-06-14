@@ -1,0 +1,94 @@
+h1{
+    color: red;
+}
+
+h2{
+    color: rgb(91, 91, 239);
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Fraklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* p and li selectors are removed/commented out because of boostrap font.
+li{
+    font-family: "Courier New", Courier, monospace;
+} */
+#banner{   
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    /*background-color and text-align are removed for boostrap's.*/   
+}
+#banner p{
+    margin: 0;
+    text-align: center;
+    
+}
+
+#nav, nav{
+    background-color:cadetblue;
+    color:aqua;
+    padding: 10px;
+    text-align: center;
+}
+#nav a:hover{
+    background-color: rgb(58, 189, 150);
+}
+
+#nav a:hover{
+    background-color: rgb(58, 189, 150);
+}
+
+
+
+#nav a, nav a{
+    color:aliceblue;
+    text-decoration: none;
+    font-size: large;
+    margin-right: 80px;
+    padding: 10px;
+}
+#footer, footer, footer, footer{
+    background-color: rgb(140, 196, 212);
+    min-height: 30px;
+    text-align: center;
+}
+#footer a, footer a{
+    color: blue;
+    text-decoration: overline;
+    margin-right: 80px;
+    text-decoration-style: ;
+}
+
+/* #main, main{
+    width: 80%;
+    margin: 0 auto;
+} */
+
+article{
+    margin-bottom: 50px;
+}
+
+#need_help{
+    text-align:left;
+}
+
+#copy, .office_address, .FAQs, .fruit_prep{   
+    text-align: left ;
+}
+
+#copy, #copy, #copy{   
+    text-align: left ;
+}
+
+.logo, #banner-logo{
+    height: 20px;
+    width: 20px;
+}
+
+.faqs, #faqs{
+    text-align: left;
+
+}
+

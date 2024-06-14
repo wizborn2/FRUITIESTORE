@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheets/bootstrap.min.css" />
+    <link rel="stylesheet" href="stylesheets/site.css" />
+  </head>
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <header>     
+
+      <div id="banner" class="bg-primary text-white text-center">
+        <p>Notification</p>
+      </div>
+
+      <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Fruitie Store</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href=""><img id="banner-logo" src="images/Logo.PNG"/></a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="about_us.html">About Us</a>
+              <a class="nav-link" href="contact_us.html">Contact Us</a>
+              <a class="nav-link" href="confirmation.html">Confirmation</a>
+              <a class="nav-link" href="faqs.html#">FAQs</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- <nav>
+        <a href=""><img id="banner-logo"  src="images/Logo.PNG" /></a>
+        <a href="index.html">Home</a>
+        <a href="about_us.html">About Us</a>
+        <a href="confirmation.html">Confirmation</a>
+        <a href="contact_us.html">Contact Us</a>
+        <a href="faqs.html">FAQs</a>  
+
+      </nav> -->
+      
+    </header>
+    <main class="container">
+      
+    <h1>Contact Us</h1>
+    <hr />
+
+    <h2>Locations</h2>
+    <table class="table table-striped table-hover">
+      <tr>
+        <th>Logo</th>
+        <th>Location</th>
+        <th>Opening Hours</th>
+        <th>Email Address</th>
+        <th>Phone Number</th>
+      </tr>
+      <tr>
+        <td><img class="logo"  src="images/Logo.PNG" alt="logo 1" /></td>
+        <td>Birmingham</td>
+        <td>9am - 5pm</td>
+        <td>birminghambranch@fruitie.com</td>
+        <td>01211998884</td>
+      </tr>
+      <tr>
+        <td><img class="logo"  src="images/Logo.PNG" alt="logo 1" /></td>
+        <td>London</td>
+        <td>9am - 5pm</td>
+        <td>londonbranch@fruitie.com</td>
+        <td>02030098554</td>
+      </tr>
+      <tr>
+        <td><img class="logo" src="images/Logo.PNG" alt="logo 1" /></td>
+        <td>Manchester</td>
+        <td>9am - 5pm</td>
+        <td>Manchesterbranch@fruitie.com</td>
+        <td>01612734651</td>
+      </tr>
+    </table>
+    <h2>General Enquiries</h2>
+    <!-- HTML form tag- the action attribute navigates to a page after submission.-->
+     
+    <form action="confirmation.html" id="contactForm">
+    
+      <div class="mb-3">
+        <label for="fullname" class="form-label">Name: *</label><br />
+        <input required type="text" class="form-control" id="fullname" name="fullname" placeholder="Pat Smith" /><br />      
+       
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label">Email Address: *</label><br />
+        <input required type="email" class="form-control" id="email" name="emailaddress" placeholder="PatSmith@gmail.com" /><br /><br />       
+    
+      </div>
+      <div class="mb-3">
+        <label for="enquiry" class="form-label">State your enquiry: *</label>
+        <textarea class="form-control" required id="enquiry" name="enquiry"
+        cols="50" row="10" maxlength="150"></textarea><br />
+      </div>
+
+      <div class="mb-3">
+        <label for="employed" class="form-checklabel">Are you employed?</label><br />
+        <input class="form-check-input" id="yesEmployed" type="radio" value="Y" name="employed" />Yes
+        <label for="employed" class="form-checklabel"></label>
+        <input class="form-check-input" id="noEmployed" type="radio" value="N" name="employed" />No
+      </div>  
+             
+      <input type="submit" class="btn btn-success" />
+      <button type="button" onclick="ClearForm()" class="btn btn-warning">Clear</button>
+      <!--<buttton type="reset" onclick="ClearForm()">Clear</button>-->
+    </form>
+    </main>
+
+    <footer>
+      <br/><br/>
+      <a href="https://www.amazon.com">Amazon</a>
+      <a href="https://www.ebay.com" target="_blank">eBay</a>
+      <p id="copy">&#169; Flo Webdesign 2024</p>
+    </footer>
+
+    <script src="scripts/jquery.min.js"></script>
+    <script src="stylesheets/bootstrap.min.js"></script>
+    <script src="scripts/site.js"></script>
+    <script></script>   
+    
+  </body>
+</html>
