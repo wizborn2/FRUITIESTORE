@@ -26,6 +26,21 @@
       //This is also done with minimal coding. Refresh the page to get the p lines back.
 
       $("#jquerybtn").click(function () {
-        $("p").hide();
-      })   
+        $('p').hide();
+      })
+      
+      //Anytime the file is loaded, I want the action to execute
+      $(function(){
+        var pages = ['index', 'about_us', 'contact_us', 'confirmation', 'faqs'];
+        var pathname = window.location.pathname;
+
+        $('.nav-link').each(function(item){
+          if(pathname.includes(pages[item])){
+            $(this).addCkass('active');
+            $(thi.attr('aria-current', 'page'));
+
+          }
+
+        })
+      });
     

@@ -76,6 +76,10 @@ article{
     text-align: left ;
 }
 
+.fruit_prep{
+    text-align:justify;
+    margin:auto;
+}
 #copy, #copy, #copy, #copy{   
     text-align: left ;
 }
@@ -89,7 +93,18 @@ article{
     text-align: left;
 }
 
-/* .carousel-item{
-    text-align: left;
-} */
+#cherry{
+    height:100px;
+    width: 80px;
+}
 
+
+
+ /*
+.carousel-item{
+    text-align: left;
+}*/ 
+
+.container{
+
+}
