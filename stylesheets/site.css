@@ -59,10 +59,10 @@ li{
 } */
     
 
-/* #main, main{
+ #main, main{
     width: 80%;
     margin: 0 auto;
-} */
+} 
 
 article{
     margin-bottom: 50px;
@@ -76,9 +76,9 @@ article{
     text-align: left ;
 }
 
-.fruit_prep{
-    text-align:justify;
-    margin:auto;
+.fruit_prep p{
+    text-align: flex;
+    margin:0;
 }
 #copy, #copy, #copy, #copy{   
     text-align: left ;
@@ -98,7 +98,13 @@ article{
     width: 80px;
 }
 
-
+section{
+    
+    height: auto;
+    width: auto;
+    flex-wrap: wrap; /* used by flex only */
+    gap: 0.2rem; /* not used by block */
+  }
 
  /*
 .carousel-item{
